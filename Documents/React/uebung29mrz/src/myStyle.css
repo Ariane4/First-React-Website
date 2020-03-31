@@ -1,0 +1,131 @@
+body{
+    margin:0; 
+    padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    margin: 0;
+    color: white;
+    font-family: Arial;
+}
+nav ul{
+    margin-right: 2%;
+}
+nav ul li{
+   display: inline-block;
+   padding-left: 20px;
+    list-style: none;
+}
+nav p{
+    padding-left: 2%;
+}
+
+/* STYLE HERO */
+.Section1{
+    height: 100vh;
+}
+img{
+    width: 100vw;
+height: 100vh;
+}
+.container{
+    position: relative;
+}
+.textCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(184, 119, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+  }
+
+/* Style SECTIONTWOCOLUMNS */
+.SectionTwoColumns{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    margin: 0;
+    color: white;
+    font-family: Arial;
+  }
+.Pic_rechts{
+    width: 350px;
+    height: 250px;
+    margin-top: 77px;
+    margin: 8% 10% 0 0;
+}
+.textLinks{
+    margin: 4% 0 0 10%;
+}
+.textLinks h2{
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+.textLinks p{
+    text-align: justify;
+    width: 80%;
+    font-size: 0.75em;
+    color: white;
+}
+.textLinks a{
+    color: white;
+    background-color:green;
+    display: block;
+    width: 40%;
+    text-align: center;
+    padding: 2% 0 2% 0 ;
+    margin-left: 17%;
+}
+
+/* STYLE DESCRIPTION */
+.Description{
+    background-color:#404040;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: Arial;
+}
+.Description h2{
+    text-align: center;
+    padding-top: 5%;
+    margin: 0;
+    font-size: xx-large;
+}
+.Description p{
+    width: 75%;
+    text-align: justify;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+/* STYLE FOOTER */
+.Footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    margin: 0;
+    color: white;
+    font-family: Arial;
+}
+.Footer p{
+    padding-left: 2%;
+}
+.Footer ul{
+    margin-right: 2%;
+}
+.Footer ul li{
+   display: inline-block;
+   padding-left: 20px;
+    list-style: none;
+}
